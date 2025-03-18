@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 // Une route qui retourne une vue
@@ -19,4 +19,8 @@ Route::get('/about-string', function () {
 // Une route qui retourne un tableau
 Route::get('/about-array', function () {
     return ['name' => 'John', 'age' => 30];
+});
+
+Route::get('/contact', function () {
+    return view('contact');
 });
