@@ -9,9 +9,9 @@
 
 <body>
     <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+        <x-nav-link href="/">Home</x-nav-link>
+        <x-nav-link href="/about" style="color : red">About</x-nav-link>
+        <x-nav-link href="/contact">Contact</x-nav-link>
     </nav>
 
     <!-- La variable slot contient l'intérieur de la balise lors de l'appel (voir dans home.blade.php) -->
