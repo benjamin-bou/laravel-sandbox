@@ -1,3 +1,6 @@
 <x-layout>
-    <h1>About pageeee</h1>
+    <x-slot:title>
+        About Page
+    </x-slot:title>
+    <h1>this is the about pageeee</h1>
 </x-layout>
